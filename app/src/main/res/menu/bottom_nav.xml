@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/acc_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Trang chủ" />
+    <item
+        android:id="@+id/acc_tich_diem"
+        android:enabled="true"
+        android:icon="@drawable/ic_tich_diem"
+        android:title="Tích điểm"/>
+    <item
+        android:id="@+id/acc_dung_diem"
+        android:enabled="true"
+        android:icon="@drawable/ic_gift"
+        android:title="Dùng điểm" />
+    <item
+        android:id="@+id/acc_notification"
+        android:enabled="true"
+        android:icon="@drawable/ic_notification"
+        android:title="Thông báo" />
+    <item
+        android:id="@+id/acc_user"
+        android:enabled="true"
+        android:icon="@drawable/ic_user"
+        android:title="Tài khoản" />
+</menu>
