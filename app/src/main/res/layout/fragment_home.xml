@@ -117,7 +117,7 @@
                     android:textColor="#000"/>
                 <TextView
                     android:id="@+id/tv_dung_diem"
-                    android:layout_marginLeft="85dp"
+                    android:layout_marginLeft="75dp"
                     android:layout_toRightOf="@id/tv_tich_diem"
                     android:layout_below="@id/img_dung_diem"
                     android:layout_width="wrap_content"
@@ -127,7 +127,7 @@
                 <TextView
                     android:gravity="center"
                     android:layout_alignParentRight="true"
-                    android:layout_marginLeft="80dp"
+                    android:layout_marginLeft="65dp"
                     android:layout_toRightOf="@id/tv_dung_diem"
                     android:layout_below="@id/img_tien_ich"
                     android:layout_width="wrap_content"
@@ -170,7 +170,7 @@
                     android:textColor="#000"/>
                 <TextView
                     android:id="@+id/tv_dat_hang"
-                    android:layout_marginLeft="100dp"
+                    android:layout_marginLeft="90dp"
                     android:layout_toRightOf="@id/tv_hoi_dap"
                     android:layout_below="@id/img_dat_hang"
                     android:layout_width="wrap_content"
@@ -180,7 +180,7 @@
                 <TextView
                     android:gravity="center"
                     android:layout_alignParentRight="true"
-                    android:layout_marginLeft="85dp"
+                    android:layout_marginLeft="75dp"
                     android:layout_toRightOf="@id/tv_dat_hang"
                     android:layout_below="@id/img_bao_gia"
                     android:layout_width="wrap_content"
@@ -193,6 +193,7 @@
 
     </LinearLayout>
     <ScrollView
+        android:scrollbars="none"
         android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -214,6 +215,7 @@
                 android:textStyle="bold" />
 
             <HorizontalScrollView
+                android:scrollbars="none"
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -363,6 +365,7 @@
                 android:textStyle="bold" />
 
             <HorizontalScrollView
+                android:scrollbars="none"
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -512,6 +515,7 @@
                 android:textStyle="bold" />
 
             <HorizontalScrollView
+                android:scrollbars="none"
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
